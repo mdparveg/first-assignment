@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+span.name{
+    font-family: 'Bitter', serif;
+    color: #ff002b;
+}
