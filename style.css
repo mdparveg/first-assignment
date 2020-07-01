@@ -1,9 +1,157 @@
 body{
     margin: 0;
-    padding: 0;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-span.name{
-    font-family: 'Bitter', serif;
-    color: #ff002b;
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h1 span.name-highlight{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #e7116a;
+    font-size: 40px;
+}
+
+p{
+    color: gray;
+}
+
+a.linkin-button{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #e7116a;
+    font-weight: 800;
+}
+a.linkin-button:hover{
+    color:black;
+    background-color: #e7116a;
+}
+
+div.half-width{
+    width: 40%;
+    padding-left: 2%;
+    margin-left: 5%;
+    float: left;
+}
+div.half-width img{
+    width: 100%;
+}
+
+div.content-padding{
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+section.heading-area{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.biography-area{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.content-padding2{
+    margin-top: 40px;
+    padding-top: 30px;
+}
+
+a.cv{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #e7116a;
+    font-weight: 800;
+}
+a.cv:hover{
+    color:black;
+    background-color: #e7116a;
+}
+
+
+section.latest-work-area{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.work-text{
+    text-align: center;
+}
+
+div.main-gallery{
+    margin: 70px 100px 0px 100px;
+
+}
+
+div.sub-gallery{
+    display: block;
+    width: 30%;
+    padding:10px;
+    float: left;
+}
+
+div.sub-gallery img{
+    width: 100%;
+}
+
+section.footer-area{
+    background-image: url(images/footer-bg.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.for-client{
+    text-align: center;
+    padding: 30px;
+}
+
+div.for-client h4{
+    text-align: center;
+    color: gray;
+}
+
+div.for-client p{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+div p.email{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+
+div h2.email{
+    text-align: center;
+    color: white;
+}
+
+div.email-area{
+    background-color: #d82c74;
+    height: 30%;
+    margin: 0px 300px;
+    border-radius: 10px;
+}
+
+footer{
+    text-align: center;
+    font-size:18px;
 }
